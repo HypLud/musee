@@ -1,0 +1,110 @@
+/*_______________________
+
+CSS version desktop.css
+_______________________*/
+
+
+@media screen and (min-width: 400px) and (min-width: 1200px) {
+    nav{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    nav ul{
+        margin-left: 175px;
+        height: 55px;
+        gap: 40px;
+    }
+    nav ul li:first-child{
+        display: inline-block;
+    }
+    nav ul li{
+        line-height: 55px;
+    }
+    nav div img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 95px;
+        object-fit: cover;
+    }
+
+    #section1{
+        width: 80%;
+        margin: 50px auto;
+    }
+    #section1 div{
+        margin: auto;
+    }
+    #section1 div p{
+        width: 85%;
+        margin: auto;
+    }
+    #section1 div .cacher{
+        display: none;
+    }
+
+    h2{
+        width: 45%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    
+    #section2{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+    #section2 div img{
+        width: 300px;
+    }
+    #section2 div p{
+        width: 40%;
+        margin: 60px;
+    }
+    #section2 div .cacher{
+        display: block;
+    }
+
+    footer{
+        width: 100%;
+        flex-direction: row;
+    }
+    footer #section3{
+        width: 100%;
+        margin: auto;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer #reservation{
+        width: 50%;
+        font-size: 16px;
+        margin-top: -10px;
+    }
+    footer #trait_vertical{
+        display: none;
+    }
+    footer #instagram{
+        display: inline-block;
+        display: flex;
+        width: 25%;
+        margin-top: 10px;
+    }
+    footer #instagram img{
+        width: 25px;
+        height: 25px;
+    }
+    footer #instagram a{
+        text-decoration: none;
+        color: #fff;
+    }
+    footer #coordonnees{
+        width: 25%;
+        padding-top: 10px;
+    }
+}
